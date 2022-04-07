@@ -268,7 +268,7 @@ with row4_1:
              untuk menambah ragam tayangan yang tersedia di Netflix. Tidak beragamnya pilihan\
              tayangan yang berasal dari Negara pelanggan, membuat sulit untuk mendapat ketertarikan\
              pelanggan baru bagi peminat tayangan lokal yang akan lebih memilih platform streaming\
-             lokal Negara tsb.'
+             lokal Negara tersebut.'
     teks4 = textMarkdown(teks4, align = 'justify')
     st.markdown(teks4, unsafe_allow_html = True)
         
