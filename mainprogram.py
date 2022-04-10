@@ -319,7 +319,7 @@ ratingtext = '\n1.  TV-MA\t : Mature Audience Only\
               \n6.  TV-Y\t : All Children\
               \n7.  TV-G\t : General Audience\
               \n8.  NR\t\t : Not Rated\
-              \n9. R\t\t : Restricted\
+              \n9.  R\t\t : Restricted\
               \n10. PG-13\t : Parents Strongly Coutioned (age : 13)\
               \n11. PG\t\t : Parental Guided Suggested\
               \n12. NC-17\t : Clearly Adult\
