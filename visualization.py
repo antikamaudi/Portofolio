@@ -123,7 +123,7 @@ def plotLine(data: pd.DataFrame, **parameter) -> go.Figure:
 def plotHeatMap(data : pd.DataFrame, **parameter) -> go.Figure:
     colours = parameter.get('colorby')
     fig = px.imshow(data,
-                labels=dict(color = colours)
+                labels=dict(color = ylorrd)
                )
     fig.update_xaxes(side="top")
     return fig
