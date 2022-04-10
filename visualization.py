@@ -122,11 +122,11 @@ def plotLine(data: pd.DataFrame, **parameter) -> go.Figure:
 
 def plotHeatMap(data : pd.DataFrame, **parameter) -> go.Figure:
     colours = parameter.get('colorby')
+    colour = ['ylorrd'],
     fig = px.imshow(data,
                 labels=dict(color = colours)
                )
     fig.update_xaxes(side="top")
-    colorscale = 'ylorrd'
     return fig
 
 def plotPyramids(data : pd.DataFrame, **parameter) -> go.Figure:
