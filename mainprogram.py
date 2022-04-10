@@ -315,16 +315,15 @@ ratingtext = '\n1.  TV-MA\t : Mature Audience Only\
               \n2.  TV-14\t : Parents Strongly Coutioned\
               \n3.  TV-PG\t : Parental Guided Suggested\
               \n4.  TV-Y7\t : Directed to Older Children\
-              \n5.  TV-Y7\t : Directed to Older Children\
-              \n6.  FV\t\t : Fantasy Violence\
-              \n7.  TV-Y\t : All Children\
-              \n8.  TV-G\t : General Audience\
-              \n9.  NR\t\t : Not Rated\
-              \n10. R\t\t : Restricted\
-              \n11. PG-13\t : Parents Strongly Coutioned (age : 13)\
-              \n12. PG\t\t : Parental Guided Suggested\
-              \n13. NC-17\t : Clearly Adult\
-              \n14. G\t\t : General Audience'
+              \n5.  TV-Y7-FV\t : Directed to Older Children Fantasy Violence\
+              \n6.  TV-Y\t : All Children\
+              \n7.  TV-G\t : General Audience\
+              \n8.  NR\t\t : Not Rated\
+              \n9. R\t\t : Restricted\
+              \n10. PG-13\t : Parents Strongly Coutioned (age : 13)\
+              \n11. PG\t\t : Parental Guided Suggested\
+              \n12. NC-17\t : Clearly Adult\
+              \n13. G\t\t : General Audience'
 
 row7_spacer1, row7_1, row7_spacer2 = st.columns((.1, 7.2, .1))  
 with row7_1:
