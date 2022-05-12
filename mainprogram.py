@@ -167,18 +167,19 @@ datafilter = datafilter.reset_index(drop = True)
 #Layout 1 : Title 
 row0_spacer1, row0_1, row0_spacer2 = st.columns((.1, 7.2, .1))
 with row0_1:
-    st.title('Netflix’s Preferred Content-based Recommendation System as a Key to Performance Improvement')
+    st.title('Comparison of Available Netflix Content with customer's Preerred content')
     st.subheader('Streamlit App by [Antika Maudi Lanthasari](https://dqlab.id)')
-    teks1 = 'Persaingan ketat terjadi antara platform video streaming di tingkat global\
-             dikarenakan peluncuran berbagai platform video streaming local maupun global\
-             yang meningkat pesat. Netflix menjadi salah satu perusahaan raksasa streaming\
-             dari aspek pendapatan. Kuartal 2 2021, pendapatan Netflix naik hingga 19.4%\
-             dibandingkan periode yang sama tahun lalu, namun pada kuartal 4 2021 jumlah\
-             pelanggan meleset dari target perusahaan. Pertumbuhan pelanggan Netflix menjadi\
-             lambat dibandingkan platform raksasa lain yang melesat secara global.\
-             Salah satu faktor yang menarik pelanggan baru dengan menyediakan pilihan tayangan\
-             yang sesuai minat mayoritas pelanggan. Berikut rekomendasi tayangan sesuai minat\
-             pelanggan Netflix per Januari 2021 untuk peningkatan performa pelayanan Netflix.'
+    teks1 = 'There is a fierce between video streaming platforms globally, due to the rapid growth\
+             in the number of these platforms. Netflix is one of the biggest streaming companies in terms of revenue.\
+             But the growth of Netflix subscribers is slower than other video streaming platfrom.\
+             Allegedly due to netflix subscription fee is more expensive than others. Although\
+             subscription fee is expensive, factor that affect to improve this situation is maintain\
+             the subscriber's satisfication fulfilled. One of the way is by content according to the taste of\
+             the majority of subscibers provided in greater numbers. Comparison between the availability of content\
+             that matched the subscriber's preferred content can be known through the calculation of the number of\
+             viewers for each content. Based on data obatained for January 2021, a comparison was made with several\
+             variables between the number of availability and the number of viewers. The variables are the country that produces\
+             content for Netflix, the amount of content added each year and rating.'
     teks1 = textMarkdown(teks1, align = 'justify')
     st.markdown('\n{}'.format(teks1), unsafe_allow_html = True)
     st.markdown('\n***Source: cnbc.com***')
@@ -231,10 +232,10 @@ else:
 row2_spacer1, row2_1, row2_spacer2 = st.columns((.1, 7.2, .1))
 with row2_1:
     st.header('Countries of Shows Creator on Netflix')
-    teks2 = 'Per Januari 2021, Negara yang termasuk top 3 untuk kategori Shows \
-             Creator di Netflix pada posisi pertama yaitu United States lalu India,\
-             dan disusul oleh United Kingdom. Berbagai pilihan tayangan dari segi tipe,\
-             genre dan rating dibuat oleh ketiga Negara tersebut.'
+    teks2 = 'For January 2021, the top 3 countries in the Netflix show creator category\
+             are the United States, followed by India then in the third position is United Kingdom.\
+             Various chices of the shows in terms of type, genre and rating are roduced by the three\
+             countries.'
     teks2 = textMarkdown(teks2, align = 'justify')
     st.markdown(teks2, unsafe_allow_html = True)
     st.plotly_chart(fig1, use_container_width = True)
