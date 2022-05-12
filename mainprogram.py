@@ -9,7 +9,7 @@ import visualization as vis
 st.set_page_config(layout = "wide")
 
 def getDataClean() -> pd.DataFrame:
-    url      = 'https://github.com/antikamaudi/netflix/blob/main/netflixdatarev.xlsx?raw=true'
+    url      = 'https://github.com/antikamaudi/portofolio/blob/main/netflixdatarev.xlsx?raw=true'
     data     = pd.read_excel(BytesIO(rq.get(url).content), sheet_name = 'dim_netflix')
     datatype = {'show_id' : 'string',
                 'video_type' : 'string',
