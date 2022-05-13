@@ -167,7 +167,7 @@ datafilter = datafilter.reset_index(drop = True)
 #Layout 1 : Title 
 row0_spacer1, row0_1, row0_spacer2 = st.columns((.1, 7.2, .1))
 with row0_1:
-    st.title('Comparison of Available Netflix Content with customer's Preerred content')
+    st.title('Comparison of Available Netflix Content with Preferred content by Subscribers')
     st.subheader('Streamlit App by [Antika Maudi Lanthasari](https://dqlab.id)')
     teks1 = 'There is a fierce between video streaming platforms globally, due to the rapid growth\
              in the number of these platforms. Netflix is one of the biggest streaming companies in terms of revenue.\
