@@ -174,9 +174,9 @@ with row0_1:
              But the growth of Netflix subscribers is slower than other video streaming platfrom.\
              Allegedly due to netflix subscription fee is more expensive than others. Although\
              subscription fee is expensive, factor that affect to improve this situation is maintain\
-             the subscriber's satisfication fulfilled. One of the way is by content according to the taste of\
+             the subscribers satisfication fulfilled. One of the way is by content according to the taste of\
              the majority of subscibers provided in greater numbers. Comparison between the availability of content\
-             that matched the subscriber's preferred content can be known through the calculation of the number of\
+             that matched the subscriber preferred content can be known through the calculation of the number of\
              viewers for each content. Based on data obatained for January 2021, a comparison was made with several\
              variables between the number of availability and the number of viewers. The variables are the country that produces\
              content for Netflix, the amount of content added each year and rating.'
