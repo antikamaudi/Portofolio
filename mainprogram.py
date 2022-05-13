@@ -148,7 +148,7 @@ attCountry   = da.getAttribute(data, colAtt = 'country')
 attYear      = da.getAttribute(data, colAtt = 'year_added')
 attRating    = da.getAttribute(data, colAtt = 'rating')
 
-st.sidebar.markdown("**Seleksi Data yang akan di Analisa:** 👇")
+st.sidebar.markdown("**Data Selection to Analyze:** 👇")
 
 attributeType    = st.sidebar.selectbox('Type of the Shows', attTypes)
 attributeCountry = st.sidebar.multiselect('Countries (Max {})'.format(LimitCountry), options = attCountry, default = attCountry[0:5])
@@ -234,7 +234,7 @@ with row2_1:
     st.header('Countries of Shows Creator on Netflix')
     teks2 = 'For January 2021, the top 3 countries in the Netflix show creator category\
              are the United States, followed by India then in the third position is United Kingdom.\
-             Various chices of the shows in terms of type, genre and rating are roduced by the three\
+             Various choices of the shows in terms of type, genre and rating are roduced by the three\
              countries.'
     teks2 = textMarkdown(teks2, align = 'justify')
     st.markdown(teks2, unsafe_allow_html = True)
@@ -248,10 +248,8 @@ row3_spacer1, row3_1, row3_spacer2 = st.columns((.1, 7.2, .1))
 with row3_1:
     st.header('Compare Countries that Produce and/or Added The Show on Netflix')                             
     st.plotly_chart(fig2, use_container_width = True)
-    teks3 = 'The number of shows produced by each country has a different number.\
-             Only few countries have significant contributions to become the home production for Netflix shows.\
-             Negara terdapat ketimpangan yang sangat jauh, bahkan antara ketiga\
-             Negara yang menjadi top 3 Shows Creator.'
+    teks3 = 'The number of shows produced by each country is very different.\
+             Only few countries have significant contributions to become the home production for Netflix shows.'
     teks3 = textMarkdown(teks3, align = 'justify')
     st.markdown(teks3, unsafe_allow_html = True)
 
@@ -264,8 +262,8 @@ row4_spacer1, row4_1, row4_spacer2 = st.columns((.1, 7.2, .1))
 with row4_1:
     st.header('Growth Number of Shows added on Netflix with a Certain Period') 
     st.plotly_chart(fig3, use_container_width = True)
-    teks4 = 'Jumlah shows antar Negara yang terjadi ketimpangan terlihat menghasilkan fluktuasi\
-             tayangan yang ditambahkan ke Netflix setiap tahun. Pertumbuhan tayangan diperlukan\
+    teks4 = 'The number of the shows added in 2020 is decreasing, due to the first year of pandemic that causes\
+             a delay in some of the shows released and made during the year.\
              untuk menambah ragam tayangan yang tersedia di Netflix. Tidak beragamnya pilihan\
              tayangan yang berasal dari Negara pelanggan, membuat sulit untuk mendapat ketertarikan\
              pelanggan baru bagi peminat tayangan lokal yang akan lebih memilih platform streaming\
