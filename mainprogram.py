@@ -248,8 +248,8 @@ row3_spacer1, row3_1, row3_spacer2 = st.columns((.1, 7.2, .1))
 with row3_1:
     st.header('Compare Countries that Produce and/or Added The Show on Netflix')                             
     st.plotly_chart(fig2, use_container_width = True)
-    teks3 = 'Grafik di atas memperlihatkan perbandingan jumlah tayangan yang dibuat\
-             oleh seluruh Negara yang ada di dunia. Jumlah tayangan buatan antar\
+    teks3 = 'The number of shows produced by each country has a different number.\
+             Only few countries have significant contributions to become the home production for Netflix shows.\
              Negara terdapat ketimpangan yang sangat jauh, bahkan antara ketiga\
              Negara yang menjadi top 3 Shows Creator.'
     teks3 = textMarkdown(teks3, align = 'justify')
