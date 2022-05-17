@@ -279,12 +279,13 @@ row5_spacer1, row5_1, row5_spacer2 = st.columns((.1, 7.2, .1))
 with row5_1:
     st.header('Compare Countries that Produce and/or Added The Show on Netflix Per Year')                             
     st.plotly_chart(fig4, use_container_width = True)
-    teks5 = 'Melalui grafik ini dapat dibandingkan fluktuasi jumlah tayangan antar Negara\
-             yang ditambahkan ke Netflix setiap tahun. Netflix menambahkan tayangan melalui\
-             pembelian lisensi tayangan dalam jangka waktu tertentu maupun memproduksi\
-             tayangan sendiri. Keputusan perpanjangan lisensi ditentukan dengan jumlah\
-             keuntungan ataupun kerugian yang didapat setelah memperhitungkan cost per-minutes\
-             setiap tayangan'
+    teks5 = 'Netflix adds show through the purchase of show licences within certain period of time.\
+             The decision to renew the license is determined by the amount of profit or loss obtained after\
+             calculating the cost per minute of each shows.\
+             Decreasing number of shows on Netflix in 2020, because almost all countries delayed\
+             the release and production of Netflix shows, even the top 3 countries for the show creator.\ 
+             There were only a few countries in that year\
+             that had an increase in the number of shows for Netflix, like Indonesia, Austria.'
     teks5 = textMarkdown(teks5, align = 'justify')
     st.markdown(teks5, unsafe_allow_html = True)
     
