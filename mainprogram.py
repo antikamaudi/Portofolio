@@ -331,3 +331,21 @@ with row7_1:
     st.markdown(teks7, unsafe_allow_html = True) 
     st.text(ratingtext)                       
     st.plotly_chart(fig6, use_container_width = True)
+   
+#Layout 8 : Summary
+row8_spacer1, row8_1, row8_spacer2 = st.columns((.1, 7.2, .1))
+with row8_1:
+    st.subheader('Summary')
+    teks8 = 'There is a fierce between video streaming platforms globally, due to the rapid growth\
+             in the number of these platforms. Netflix is one of the biggest streaming companies in terms of revenue.\
+             But the growth of Netflix subscribers is slower than other video streaming platfrom.\
+             Allegedly due to netflix subscription fee is more expensive than others. Although\
+             subscription fee is expensive, factor that affect to improve this situation is maintain\
+             the subscribers satisfication fulfilled. One of the way is by content according to the taste of\
+             the majority of subscibers provided in greater numbers. Comparison between the availability of content\
+             that matched the subscriber preferred content can be known through the calculation of the number of\
+             viewers for each content. Based on data obatained for January 2021, a comparison was made with several\
+             variables between the number of availability and the number of viewers. The variables are the country that produces\
+             content for Netflix, the amount of content added each year and rating.'
+    teks1 = textMarkdown(teks1, align = 'justify')
+    st.markdown('\n{}'.format(teks8), unsafe_allow_html = True)
