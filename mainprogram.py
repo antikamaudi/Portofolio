@@ -285,7 +285,7 @@ with row5_1:
              Decreasing number of shows on Netflix in 2020, because almost all countries delayed\
              the release and production of Netflix shows, even the top 3 countries for the show creator.\ 
              There were only a few countries in that year\
-             that had an increase in the number of shows for Netflix, like Indonesia, Austria.'
+             that had an increase in the number of shows like Indonesia, Austria.'
     teks5 = textMarkdown(teks5, align = 'justify')
     st.markdown(teks5, unsafe_allow_html = True)
     
