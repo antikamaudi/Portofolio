@@ -263,11 +263,9 @@ with row4_1:
     st.header('Growth Number of Shows added on Netflix with a Certain Period') 
     st.plotly_chart(fig3, use_container_width = True)
     teks4 = 'The number of the shows added in 2020 is decreasing, due to the first year of pandemic that causes\
-             a delay in some of the shows released and made during the year.\
-             untuk menambah ragam tayangan yang tersedia di Netflix. Tidak beragamnya pilihan\
-             tayangan yang berasal dari Negara pelanggan, membuat sulit untuk mendapat ketertarikan\
-             pelanggan baru bagi peminat tayangan lokal yang akan lebih memilih platform streaming\
-             lokal Negara tersebut.'
+             a delay in some of the shows released and made during the year. Aside 2020, the number of shows\
+             added to Netflix is increasing. Significant increase occured from 2015 to 2016, line up with an increasing \
+             number of Netflix subscribers.'
     teks4 = textMarkdown(teks4, align = 'justify')
     st.markdown(teks4, unsafe_allow_html = True)
         
