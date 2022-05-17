@@ -296,12 +296,11 @@ row6_spacer1, row6_1, row6_spacer2 = st.columns((.1, 7.2, .1))
 with row6_1:
     st.header('Rating Show Options that Available on Netflix')                             
     st.plotly_chart(fig5, use_container_width = True)
-    teks6 = 'Pilihan rating tayangan yang disediakan oleh Netflix termasuk beragam,\
-             sehingga menghasilkan “wide range of markets” yang mumpuni. Tayangan Netflix \
-             tersedia untuk anak umur 7 tahun di bawah pengawasan orangtua. \
-             Meskipun pilihan rating yang beragam, namun untuk rating tertentu\
-             memiliki jumlah pilihan tayangan yang tidak banyak terutama untuk tipe tv show,\
-             dan tayangan didominasi rating TV-MA.'
+    teks6 = 'Netflix has a wide selection of tv ratings, resulting in a wide range of\
+             target markets. The Netflix show rating can be enjoyed by children to adults,\
+             but only some rating tv have a wide range of show options. Tv ratings on Netflix\
+             are dominated by TV-MA, TV-14 and R for movies, while tv show types are dominated\
+             by TV-MA, TV-14, and TV-PG.'
     teks6 = textMarkdown(teks6, align = 'justify')
     st.markdown(teks6, unsafe_allow_html = True)
     
